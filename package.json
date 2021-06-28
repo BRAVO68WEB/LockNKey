@@ -1,0 +1,33 @@
+{
+  "name": "locknkey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bravo68web/locknkey.git"
+  },
+  "keywords": [
+    "locknkey",
+    "encrypt",
+    "decrypt",
+    "store",
+    "secure",
+    "keyring"
+  ],
+  "author": "BRAVO68WEB",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/bravo68web/locknkey/issues"
+  },
+  "homepage": "https://github.com/bravo68web/locknkey#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "crypto-js": "^4.0.0",
+    "fastify": "^3.18.0",
+    "fastify-multer": "^2.0.2"
+  }
+}
