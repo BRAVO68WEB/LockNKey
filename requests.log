@@ -92,3 +92,11 @@
 {"level":30,"time":1629529736788,"pid":21784,"hostname":"DESKTOP-39022AE","reqId":"req-1","res":{"statusCode":200},"responseTime":73.57169999927282,"msg":"request completed"}
 {"level":30,"time":1629529986171,"pid":6744,"hostname":"DESKTOP-39022AE","msg":"Server listening at http://127.0.0.1:3000"}
 {"level":30,"time":1629529986171,"pid":6744,"hostname":"DESKTOP-39022AE","msg":"Server listening on http://127.0.0.1:3000"}
+{"level":30,"time":1629530327465,"pid":6744,"hostname":"DESKTOP-39022AE","reqId":"req-1","req":{"method":"GET","url":"/","hostname":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":49472},"msg":"incoming request"}
+{"level":30,"time":1629530327470,"pid":6744,"hostname":"DESKTOP-39022AE","reqId":"req-1","res":{"statusCode":200},"responseTime":4.249899998307228,"msg":"request completed"}
+{"level":30,"time":1629530328305,"pid":6744,"hostname":"DESKTOP-39022AE","reqId":"req-2","req":{"method":"GET","url":"/encode","hostname":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":49472},"msg":"incoming request"}
+{"level":30,"time":1629530328307,"pid":6744,"hostname":"DESKTOP-39022AE","reqId":"req-2","res":{"statusCode":200},"responseTime":1.1911999993026257,"msg":"request completed"}
+{"level":30,"time":1629530329667,"pid":6744,"hostname":"DESKTOP-39022AE","reqId":"req-3","req":{"method":"GET","url":"/decode","hostname":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":49472},"msg":"incoming request"}
+{"level":30,"time":1629530329669,"pid":6744,"hostname":"DESKTOP-39022AE","reqId":"req-3","res":{"statusCode":200},"responseTime":1.1435999982059002,"msg":"request completed"}
+{"level":30,"time":1629530333016,"pid":6744,"hostname":"DESKTOP-39022AE","reqId":"req-4","req":{"method":"GET","url":"/encode","hostname":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":49472},"msg":"incoming request"}
+{"level":30,"time":1629530333017,"pid":6744,"hostname":"DESKTOP-39022AE","reqId":"req-4","res":{"statusCode":200},"responseTime":0.5021999999880791,"msg":"request completed"}
