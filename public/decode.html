@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encoder</title>
+</head>
+<body>
+    <form method="post" action="/decode" enctype="application/json">
+        <label for="toBeDecoded">Encrypted Text :- </label>
+        <input type="text" name="toBeDecoded" id="toBeDecoded">
+        <br>
+        <label for="privateKey">Secret :- </label>
+        <input type="text" name="privateKey" id="privateKey">
+        <input type="submit">
+    </form>
+</body>
+</html>
