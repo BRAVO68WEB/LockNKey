@@ -27,11 +27,13 @@
   "dependencies": {
     "axios": "^0.21.1",
     "crypto-js": "^4.0.0",
+    "ejs": "^3.1.6",
     "fastify": "^3.18.0",
     "fastify-formbody": "^5.0.0",
     "fastify-multer": "^2.0.2",
     "fastify-static": "^4.2.2",
     "fs-extra": "^10.0.0",
+    "point-of-view": "^4.15.2",
     "random-words": "^1.1.1"
   }
 }
