@@ -19,3 +19,40 @@
 {"level":30,"time":1633456679620,"pid":62531,"hostname":"apexPC","reqId":"req-4","res":{"statusCode":200},"responseTime":1.0447580004110932,"msg":"request completed"}
 {"level":30,"time":1633456697042,"pid":64479,"hostname":"apexPC","msg":"Server listening at http://127.0.0.1:3000"}
 {"level":30,"time":1633456697043,"pid":64479,"hostname":"apexPC","msg":"Server listening on http://127.0.0.1:3000"}
+{"level":30,"time":1633457651018,"pid":72361,"hostname":"apexPC","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1633457651020,"pid":72361,"hostname":"apexPC","msg":"Server listening on http://127.0.0.1:3000"}
+{"level":30,"time":1633457652253,"pid":72410,"hostname":"apexPC","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1633457652254,"pid":72410,"hostname":"apexPC","msg":"Server listening on http://127.0.0.1:3000"}
+{"level":30,"time":1633506408020,"pid":16086,"hostname":"apexPC","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1633506408026,"pid":16086,"hostname":"apexPC","msg":"Server listening on http://127.0.0.1:3000"}
+{"level":30,"time":1633506416761,"pid":16086,"hostname":"apexPC","reqId":"req-1","req":{"method":"GET","url":"/","hostname":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":45898},"msg":"incoming request"}
+{"level":30,"time":1633506416778,"pid":16086,"hostname":"apexPC","reqId":"req-1","res":{"statusCode":200},"responseTime":12.696268000174314,"msg":"request completed"}
+{"level":30,"time":1633506417103,"pid":16086,"hostname":"apexPC","reqId":"req-2","req":{"method":"GET","url":"/favicon.ico","hostname":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":45898},"msg":"incoming request"}
+{"level":30,"time":1633506417103,"pid":16086,"hostname":"apexPC","reqId":"req-2","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1633506417111,"pid":16086,"hostname":"apexPC","reqId":"req-2","res":{"statusCode":404},"responseTime":8.310508000198752,"msg":"request completed"}
+{"level":30,"time":1633506481729,"pid":16086,"hostname":"apexPC","reqId":"req-3","req":{"method":"GET","url":"/encode","hostname":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":45944},"msg":"incoming request"}
+{"level":30,"time":1633506481731,"pid":16086,"hostname":"apexPC","reqId":"req-3","res":{"statusCode":200},"responseTime":1.623244000133127,"msg":"request completed"}
+{"level":30,"time":1633506485015,"pid":16086,"hostname":"apexPC","reqId":"req-4","req":{"method":"POST","url":"/encode","hostname":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":45944},"msg":"incoming request"}
+{"level":30,"time":1633506485023,"pid":16086,"hostname":"apexPC","reqId":"req-4","res":{"statusCode":200},"responseTime":8.027142999693751,"msg":"request completed"}
+{"level":30,"time":1633506490346,"pid":16086,"hostname":"apexPC","reqId":"req-5","req":{"method":"GET","url":"/","hostname":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":45950},"msg":"incoming request"}
+{"level":30,"time":1633506490347,"pid":16086,"hostname":"apexPC","reqId":"req-5","res":{"statusCode":200},"responseTime":0.8913809997029603,"msg":"request completed"}
+{"level":30,"time":1633506491847,"pid":16086,"hostname":"apexPC","reqId":"req-6","req":{"method":"GET","url":"/decode","hostname":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":45950},"msg":"incoming request"}
+{"level":30,"time":1633506491849,"pid":16086,"hostname":"apexPC","reqId":"req-6","res":{"statusCode":200},"responseTime":0.9586370000615716,"msg":"request completed"}
+{"level":30,"time":1633506517022,"pid":16086,"hostname":"apexPC","reqId":"req-7","req":{"method":"POST","url":"/decode","hostname":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":45954},"msg":"incoming request"}
+{"level":30,"time":1633506517031,"pid":16086,"hostname":"apexPC","reqId":"req-7","res":{"statusCode":200},"responseTime":7.857400999870151,"msg":"request completed"}
+{"level":30,"time":1633506585634,"pid":17721,"hostname":"apexPC","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1633506585636,"pid":17721,"hostname":"apexPC","msg":"Server listening on http://127.0.0.1:3000"}
+{"level":30,"time":1633506623319,"pid":18051,"hostname":"apexPC","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1633506623320,"pid":18051,"hostname":"apexPC","msg":"Server listening on http://127.0.0.1:3000"}
+{"level":30,"time":1633506628880,"pid":18051,"hostname":"apexPC","reqId":"req-1","req":{"method":"GET","url":"/","hostname":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":45992},"msg":"incoming request"}
+{"level":30,"time":1633506628896,"pid":18051,"hostname":"apexPC","reqId":"req-1","res":{"statusCode":200},"responseTime":15.294470000080764,"msg":"request completed"}
+{"level":30,"time":1633506630420,"pid":18051,"hostname":"apexPC","reqId":"req-2","req":{"method":"GET","url":"/encode","hostname":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":45992},"msg":"incoming request"}
+{"level":30,"time":1633506630430,"pid":18051,"hostname":"apexPC","reqId":"req-2","res":{"statusCode":200},"responseTime":9.645780999679118,"msg":"request completed"}
+{"level":30,"time":1633506632130,"pid":18051,"hostname":"apexPC","reqId":"req-3","req":{"method":"POST","url":"/encode","hostname":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":45992},"msg":"incoming request"}
+{"level":30,"time":1633506632138,"pid":18051,"hostname":"apexPC","reqId":"req-3","res":{"statusCode":200},"responseTime":7.332218000199646,"msg":"request completed"}
+{"level":30,"time":1633506641357,"pid":18051,"hostname":"apexPC","reqId":"req-4","req":{"method":"POST","url":"/decode","hostname":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":45998},"msg":"incoming request"}
+{"level":30,"time":1633506641361,"pid":18051,"hostname":"apexPC","reqId":"req-4","res":{"statusCode":200},"responseTime":3.317695999983698,"msg":"request completed"}
+{"level":30,"time":1633506647323,"pid":18051,"hostname":"apexPC","reqId":"req-5","req":{"method":"GET","url":"/decode","hostname":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":46002},"msg":"incoming request"}
+{"level":30,"time":1633506647332,"pid":18051,"hostname":"apexPC","reqId":"req-5","res":{"statusCode":200},"responseTime":8.312086000107229,"msg":"request completed"}
+{"level":30,"time":1633506658489,"pid":18051,"hostname":"apexPC","reqId":"req-6","req":{"method":"POST","url":"/decode","hostname":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":46012},"msg":"incoming request"}
+{"level":30,"time":1633506658491,"pid":18051,"hostname":"apexPC","reqId":"req-6","res":{"statusCode":200},"responseTime":1.4004699997603893,"msg":"request completed"}
