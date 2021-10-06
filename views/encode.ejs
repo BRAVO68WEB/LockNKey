@@ -1,11 +1,59 @@
 <%- include("partials/header"); -%>
-<body>
-	<form method="post" action="/encode" enctype="application/json">
-		<label for="textTOEncrypt" name="textTOEncrypt"
-			>Text to Encrypt :-
-		</label>
-		<input type="text" name="textTOEncrypt" id="textTOEncrypt" />
-		<input type="submit" />
-	</form>
-</body>
+
+<div class="w-50 card">
+	<div class="card-body">
+		<div class="mb-3">
+			<label for="text-to-encrypt" class="form-label"
+				>Enter Text to Encrypt</label
+			>
+			<input
+				type="email"
+				class="form-control"
+				id="text-to-encrypt"
+				placeholder=""
+			/>
+		</div>
+		<button id="btn-encode" type="submit" class="btn btn-primary">
+			Encode
+		</button>
+	</div>
+</div>
+
+<div class="w-50 card mt-5 d-none result">
+	<div class="card-body">
+		<p class="h5 secret">adjsfa;sf</p>
+		<p class="h5 encryptedText">fasdkfj;</p>
+	</div>
+</div>
+
+<!-- <form method="post" action="/encode" enctype="application/json">
+	<label for="textTOEncrypt" name="textTOEncrypt">Text to Encrypt :- </label>
+	<input type="text" name="textTOEncrypt" id="textTOEncrypt" />
+	<input type="submit" />
+</form> -->
+<script>
+	const btn = document.querySelector("#btn-encode");
+	btn.addEventListener("click", () => {
+		let input = document.querySelector("#text-to-encrypt");
+		let text = input.value;
+		if (!text) {
+			return;
+		}
+		axios
+			.post("/encode", { textTOEncrypt: text })
+			.then((res) => {
+				let result = document.querySelector(".result");
+				document.querySelector(
+					".secret"
+				).innerHTML = `<strong>Secret</strong>: ${res.data.secret}`;
+				document.querySelector(
+					".encryptedText"
+				).innerHTML = `<strong>Encrypted Text</strong>: ${res.data.encoded}`;
+				result.classList.remove("d-none");
+			})
+			.catch((err) => {
+				console.error(err);
+			});
+	});
+</script>
 <%- include("partials/footer"); -%>
